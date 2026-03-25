@@ -2,7 +2,7 @@
 
 An AI-powered tool that generates MARC21 bibliographic records from book title pages and verso (copyright) pages — with external verification against LC Authorities, Google Books, and Open Library so the cataloger knows what to trust.
 
-**Repository:** [github.com/Datarian-log/catalog-assist](https://github.com/Datarian-log/catalog-assist)
+**Live Demo:** [catalog-assist.vercel.app](https://catalog-assist.vercel.app)
 
 ## Features
 
