@@ -50,8 +50,6 @@ Only one key is required.
 npm run dev
 ```
 
-Open http://localhost:3000.
-
 ## How It Works
 
 ```
