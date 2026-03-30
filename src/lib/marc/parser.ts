@@ -20,7 +20,8 @@ export function parseMarcResponse(raw: string): ParseResult {
   try {
     parsed = JSON.parse(cleaned);
   } catch {
-    throw new Error("Failed to parse MARC record JSON from AI response.");
+    const preview = cleaned.slice(0, 300);
+    throw new Error(`Failed to parse MARC record JSON from AI response. Preview: ${preview}`);
   }
 
   // Validate leader

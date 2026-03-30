@@ -4,6 +4,20 @@ An AI-powered tool that generates MARC21 bibliographic records from book title p
 
 **Live Demo:** [catalog-assist.vercel.app](https://catalog-assist.vercel.app)
 
+## Screenshots
+
+**1. Enter title page text** — paste or OCR the title page and verso, then choose AI model
+
+![Input](docs/screenshot-1.png)
+
+**2. Select subject headings** — choose from LC-verified LCSH candidates
+
+![Subject Headings](docs/screenshot-2.png)
+
+**3. Review & export** — inspect the MARC record with source badges, then download .mrc or .xml
+
+![MARC Record](docs/screenshot-3.png)
+
 ## Features
 
 - **AI-powered MARC21 generation** — Claude or Gemini produces a full bibliographic record from title page text
