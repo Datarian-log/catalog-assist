@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Library Cataloger",
+  title: "AI Cataloging Assistant",
   description: "AI-Powered MARC21 Record Generator following RDA, LCSH, and LCC standards",
 };
 

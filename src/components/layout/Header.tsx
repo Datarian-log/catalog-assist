@@ -7,7 +7,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-xl font-bold text-gray-900">
-              AI Library Cataloger
+              AI Cataloging Assistant
             </h1>
             <p className="text-sm text-gray-500">
               MARC21 Record Generator · RDA / LCSH / LCC
