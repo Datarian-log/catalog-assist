@@ -39,7 +39,7 @@ async function generateWithClaude(userPrompt: string): Promise<string> {
 async function generateWithGemini(userPrompt: string): Promise<string> {
   const client = getGeminiClient();
   const model = client.getGenerativeModel({
-    model: "gemini-2.0-flash",
+    model: "gemini-1.5-flash",
     systemInstruction: CATALOGING_SYSTEM_PROMPT,
   });
 

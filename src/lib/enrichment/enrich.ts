@@ -492,7 +492,11 @@ export async function enrichRecord(
 
     // 264 $b: Publisher Name
     if (metadata.publisher) {
+      const before = enriched;
       enriched = enrich264Publisher(enriched, metadata.publisher);
+      if (enriched !== before) {
+        fieldSources["264"] = "openlibrary";
+      }
     }
 
     // 008: Rebuild known positions (date entered, pub year, country, language)
